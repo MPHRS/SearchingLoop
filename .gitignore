@@ -2,3 +2,4 @@
 /tests/__pycache__
 /.pytest_cache
 /cycle_by_list/__pycache__
+./cycle_by_list/trn.py
