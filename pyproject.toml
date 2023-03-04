@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cycle-by-list"
+version = "0.1.0"
+description = ""
+authors = ["MPHRS <serafimin2002@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cycle_by_list"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.2"
+pytest = "^7.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
