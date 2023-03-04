@@ -18,7 +18,10 @@ def dict_from_graph(data) -> Dict:
             dict_of_bonds[i].remove(i)
     dict_of_bonds.keys()
     return dict_of_bonds
-def iscycle(data):
+def iscycle(data) -> bool:
+    """ returns true if there is a loop
+    input param:
+    data - list of bonds: [[bond_1], [..], [bond_n]]"""
     dict_of_bonds = dict_from_graph(data)
     visited = set()
     flag = 0
